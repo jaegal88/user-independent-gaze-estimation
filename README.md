@@ -19,13 +19,16 @@ Since gaze estimation plays a crucial role in recognizing human intentions, it h
 
 ### <u>Overall Workflow of The Proposed Method</u>
 
-<p align="center"><img src="figure/segmentation_results.png" width="600"></p>
+<p align="center"><img src="figure/GA.png" width="600"></p>
 
 ### <u>Pupil segmentation results and fitting ellipse to measure ellipse confidence score. (a),(b) are considered as pupil and (c) is not considered as a pupil.</u>
 
-<p align="center"><img src="figure/gazeestimation_network.png" width="600"></p>
+<p align="center"><img src="figure/segmentation_results.png" width="600"></p>
 
 ### <u>Proposed gaze estimation network.</u>
+
+<p align="center"><img src="figure/gazeestimation_network.png" width="600"></p>
+
 
 ## Experimental Results
 
