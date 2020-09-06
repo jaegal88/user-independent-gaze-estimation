@@ -19,15 +19,16 @@ Since gaze estimation plays a crucial role in recognizing human intentions, it h
 
 ## Brief Description of Our Proposed Method
 
-Our goal is to design a simple and light-weight network that is less susceptible to the differences in eye shapes between the individuals. For this, instead of using a huge end-to-end deep network, we split the network into two as shown in Figure below. The UNet in the left part is a pupil segmentation network from our previous research [29], where it is shown that the UNet provides noise-robust pupil segmentation results without depending on eye shapes. We fit the pupil region by an ellipse,
-and then the elliptic parameters of two consecutive image frames are fed to the second network (on the right side of the figure), which outputs the POG in the world camera coordinate system.
+Our goal is to design a simple and light-weight network that is less susceptible to the differences in eye shapes between the individuals. For this, instead of using a huge end-to-end deep network, we split the network into two as shown in Figure below. The UNet in the left part is a pupil segmentation network from our previous research, where it is shown that the UNet provides noise-robust pupil segmentation results without depending on eye shapes. We fit the pupil region by an ellipse, and then the elliptic parameters of two consecutive image frames are fed to the second network (on the right side of the figure), which outputs the POG in the world camera coordinate system.
 ### <u>Overall Workflow of The Proposed Method</u>
 
 <p align="center"><img src="figure/GA.png" width="600"></p>
 
+
 ### <u>Pupil segmentation results and fitting ellipse to measure ellipse confidence score. (a),(b) are considered as pupil and (c) is not considered as a pupil.</u>
 
 <p align="center"><img src="figure/segmentation_results.png" width="600"></p>
+
 
 ### <u>Proposed gaze estimation network.</u>
 
@@ -39,7 +40,11 @@ and then the elliptic parameters of two consecutive image frames are fed to the 
 **The angular error in gaze detection on each users using using proposed algorithm.**
 
 <p align="center"><img src="figure/Table1.png" width="600"></p>
+
+**Accuracy comparison in terms of mean and variance of angle estimation error.**
 <p align="center"><img src="figure/Result_graph1.png" width="450"></p>
+
+**Accuracy comparison according to the gaze angle.**
 <p align="center"><img src="figure/Result_graph2.png" width="450"></p>
 
 <br><br>
