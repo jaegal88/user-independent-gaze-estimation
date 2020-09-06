@@ -49,6 +49,25 @@ Our goal is to design a simple and light-weight network that is less susceptible
 
 <br><br>
 
+## Guidelines for Codes
+
+**Requisites should be installed beforehand.**
+
+Clone this repo.
+
+```
+git clone http://github.com/jaegal88/user_independent_gaze_estimation.git
+```
+
+Install pyuvc - (if you use pupil-labs eye-tracker)
+
+### Test
+
+```
+python cam_read.py
+```
+
+
 ## Citation
 When you use data or codes in this site,
 please cite the following paper:
