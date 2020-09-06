@@ -10,7 +10,7 @@ Sang Yoon Han, and Nam Ik Cho
 - [Pytorch 1.1](https://pytorch.org/)
 - CUDA 9.0.176 & cuDNN 7.3.1
 - Python 3.6.8
-- Pupil Labs Eye Tracker
+- Pupil Labs Eye Tracker (Need USB 3.0)
 - pyuvc-0.13 (https://docs.pupil-labs.com/)
 
 ## Abstract
@@ -59,7 +59,7 @@ Clone this repo.
 git clone http://github.com/jaegal88/user_independent_gaze_estimation.git
 ```
 
-Install pyuvc - (if you use pupil-labs eye-tracker)
+Install pyuvc - (to use pupil-labs eye-tracker in Windows 10)
 
 ### Test
 
