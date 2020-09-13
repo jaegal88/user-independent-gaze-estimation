@@ -67,11 +67,13 @@ Install pyuvc - (to use pupil-labs eye-tracker in Windows 10)
 python cam_read.py
 ```
 
+## Dataset
+Datasets are avaiable at https://github.com/jaegal88/pupil-shape-prior 
 
 ## Citation
 When you use data or codes in this site,
 please cite the following paper:
 
 ```
-@article{not_yet}
+@article{ICPR 2020}
 ```
