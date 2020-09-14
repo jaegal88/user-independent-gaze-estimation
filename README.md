@@ -75,5 +75,11 @@ When you use data or codes in this site,
 please cite the following paper:
 
 ```
-@article{ICPR 2020}
+@article{han2020gazeangle,
+title={User-Independent Gaze Estimation by Extracting Pupil Parameter and Its Mapping to the Gaze Angle},
+author={Han, Sang Yoon and Cho, Nam Ik},
+journal={ICPR 2020},
+year={2020},
+publisher={IAPR}
+}
 ```
